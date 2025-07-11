@@ -13,7 +13,7 @@ module.exports = {
     CHATBOT: getConfig("CHATBOT") || "on",
     //chatbot on/off
   
-    SESSION_ID: process.env.SESSION_ID || "MEGALODON-MD~",  // Your bot's session ID (keep it secure)
+    SESSION_ID: process.env.SESSION_ID || "MEGALODON~MD~tQJQXbaK#IHvBFjZio4cwVlJClGjJxdnQBd0p2GWLbRsZTFSYSz0",  // Your bot's session ID (keep it secure)
     
     PREFIX: getConfig("PREFIX") || ".",  // Command prefix (e.g., "., / ! * - +")
     
@@ -22,9 +22,9 @@ module.exports = {
     MODE: process.env.MODE || "public",        // Bot mode: public/private/group/inbox
 
     // ===== OWNER & DEVELOPER SETTINGS =====
-    OWNER_NUMBER: process.env.OWNER_NUMBER || "50948336180",  // Owner's WhatsApp number
+    OWNER_NUMBER: process.env.OWNER_NUMBER || "50934914349",  // Owner's WhatsApp number
     
-    OWNER_NAME: process.env.OWNER_NAME || getConfig("OWNER_NAME") || "ADD YOUR NAME",           // Owner's name
+    OWNER_NAME: process.env.OWNER_NAME || getConfig("OWNER_NAME") || "𝐈𝐓'𝐒 𝐘𝐎𝐔𝐍𝐆-𝐒𝐌𝐈𝐋𝐄𝐑",           // Owner's name
     
     DEV: process.env.DEV || "50948336180",                     // Developer's contact number
     
@@ -46,7 +46,7 @@ module.exports = {
     
     // ===== MEDIA & AUTOMATION =====
     AUTO_RECORDING: process.env.AUTO_RECORDING || "false",      // Auto-record voice notes?
-    AUTO_TYPING: process.env.AUTO_TYPING || "false",            // Show typing indicator?
+    AUTO_TYPING: process.env.AUTO_TYPING || "true",            // Show typing indicator?
     MENU_IMAGE_URL: getConfig("MENU_IMAGE_URL") || "https://files.catbox.moe/roubzi.jpg",  // Bot's "alive" image
 
     // ===== SECURITY & ANTI-FEATURES =====
@@ -65,7 +65,7 @@ module.exports = {
     
     ANTI_VV: process.env.ANTI_VV || "false",  
     // Block view-once messages?
-    DELETE_LINKS: process.env.DELETE_LINKS || "false",  
+    DELETE_LINKS: process.env.DELETE_LINKS || "true",  
     // Auto-delete links?
     ANTI_DEL_PATH: process.env.ANTI_DEL_PATH || "inbox", 
     // Log deleted messages (or 'same' to resend)
@@ -78,11 +78,11 @@ module.exports = {
     // Show bot as always online?
     AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "false",
     // React to status updates?
-    AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
+    AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "false",
     // VIEW to status updates?
     AUTO_BIO: process.env.AUTO_BIO || "false",
     
-    WELCOME: process.env.WELCOME || "false",
+    WELCOME: process.env.WELCOME || "true",
     
     AMDIN_EVENTS: process.env.ADMIN_EVENTS || "true",
 };
