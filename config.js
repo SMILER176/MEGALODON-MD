@@ -45,7 +45,7 @@ module.exports = {
 
     
     // ===== MEDIA & AUTOMATION =====
-    AUTO_RECORDING: process.env.AUTO_RECORDING || "false",      // Auto-record voice notes?
+    AUTO_RECORDING: process.env.AUTO_RECORDING || "true",      // Auto-record voice notes?
 
     AUTO_TYPING: process.env.AUTO_TYPING || "false",   // Show typing indicator?
 
@@ -66,11 +66,11 @@ module.exports = {
     
     ANTILINK_WARN: process.env.ANTILINK_WARN || "false",
     
-     ANTILINK: process.env.ANTILINK || "false",
+     ANTILINK: process.env.ANTILINK || "true",
     
-    ANTI_VV: process.env.ANTI_VV || "false",  
+    ANTI_VV: process.env.ANTI_VV || "true",  
     // Block view-once messages?
-    DELETE_LINKS: process.env.DELETE_LINKS || "false",  
+    DELETE_LINKS: process.env.DELETE_LINKS || "true",  
     // Auto-delete links?
     ANTI_DEL_PATH: process.env.ANTI_DEL_PATH || "inbox", 
     // Log deleted messages (or 'inbox' to resend)
@@ -83,11 +83,11 @@ module.exports = {
     // Show bot as always online?
     AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "false",
     // React to status updates?
-    AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
+    AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "false",
     // VIEW to status updates?
     AUTO_BIO: process.env.AUTO_BIO || "false",
     
-    WELCOME: process.env.WELCOME || "false",
+    WELCOME: process.env.WELCOME || "true",
     
     AMDIN_EVENTS: process.env.ADMIN_EVENTS || "true",
 };
