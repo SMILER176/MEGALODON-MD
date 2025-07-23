@@ -13,7 +13,7 @@ module.exports = {
     CHATBOT: getConfig("CHATBOT") || "on",
     //chatbot on/off
   
-    SESSION_ID: process.env.SESSION_ID || "MEGALODON~MD~UUIExTbR#Od4_rYPqVwqRj75CTQy5uyTy_mD_UFrRhgOrUeP5IXo",  // Your bot's session ID (keep it secure)
+    SESSION_ID: process.env.SESSION_ID || "MEGALODON~MD~DEN1CDqZ#54nVx5BbR0Dkb2MYM7XT_7QRZUmv5LailE5eP7jADwM",  // Your bot's session ID (keep it secure)
     
     PREFIX: getConfig("PREFIX") || ".",  // Command prefix (e.g., "., / ! * - +")
     
@@ -55,7 +55,7 @@ module.exports = {
     ANTI_DELETE: process.env.ANTI_DELETE || "true",
     ANTI_CALL: process.env.ANTI_CALL || "true",
     ANTI_BAD: process.env.ANTI_BAD || "false",                  // Block bad words?
-    ANTI_LINK_KICK: process.env.ANTILINK_KICK || "false",
+    ANTI_LINK_KICK: process.env.ANTILINK_KICK || "true",
 // make anti link true,false for groups 
     ANTIVIEW_ONCE: process.env.ANTIVIEW_ONCE || "false",
     
